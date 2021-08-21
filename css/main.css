@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #b521b5;
+}
+.shapes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.square-box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    margin: 100px;
+    
+}
+.circle-box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    margin: 100px;
+    border-radius: 50%;
+}
